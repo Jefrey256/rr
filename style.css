@@ -1,8 +1,29 @@
+:root {
+    --cor0: #c5edb6;
+    --cor1: #83e1ad:
+    --cor2: #3ddc84;
+    --cor3: #2fa866;
+    --cor4: #2fa866;
+    --cor5: #1a5c37;
+    --cor6: #063d1e;
+}
+* {
+    margin: 0px;
+    padding: 0px;
+}
 body {
+    font-family: Arial, Helvetica, sans-serif;
+
+    background-color: var(--cor1);
    
-    background-image: url("./imagens/neko\ arc.jpg");
+    
     
 }
+header {
+    background-image: linear-gradient( to bottom, var(--cor4), var(--cor6));
+    min-height: 150px;
+    text-align: center;
+    padding-top: 40px;
 header h1 {
     text-align: center;
 }
