@@ -49,7 +49,8 @@
       /*box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.490);*/
   }
   nav {
-    background-color: var(--cor6);
+    background-color: var(--cor6)
+    display: inline-block;;
   }
   nav a {
     color: white;
