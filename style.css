@@ -50,13 +50,14 @@
   }
   nav {
     background-color: var(--cor6)
-    display: inline-block;;
+    
   }
   nav a {
     color: white;
     padding: 10px;
     border-radius: 5px;
     text-decoration: none;
+    display: inline-block;
     font-weight: bold;
     transition-duration: 1s;
   }
